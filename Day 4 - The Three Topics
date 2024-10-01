@@ -1,0 +1,6 @@
+A , B , C , X = map(int,input().split(" "))
+K = [A,B,C]
+if X in K :
+    print("Yes")
+else :
+    print("No")
