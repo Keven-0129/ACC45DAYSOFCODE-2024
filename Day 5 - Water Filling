@@ -1,0 +1,8 @@
+T=int(input())
+for i in range(T):
+    B=list(map(int,input().split(" ")))
+    a=sum(B)
+    if a>1:
+        print("Not now")
+    else :
+        print("Water filling time")
