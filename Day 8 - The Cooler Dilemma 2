@@ -1,0 +1,8 @@
+T=int(input())
+for i in range (T):
+    X,Y=map(int,input().split(" "))
+    J=Y//X
+    if J*X==Y:
+        print(J-1)
+    else:
+        print(J)
