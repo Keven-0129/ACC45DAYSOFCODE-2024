@@ -1,0 +1,21 @@
+T=int(input())
+for i in range(T):
+    W,X,Y,Z=map(int,input().split(" "))
+    t=[X,Y,Z]
+    c=0
+    if (X+Y+Z==W):
+        c=1
+    else:
+        for y in t:
+            if y==W:
+                c=1
+    for j in t:
+        t1=[X,Y,Z]
+        t1.remove(j)
+        for k in t1:
+            if k+j==W:
+                c=1
+    if c==1:
+        print("Yes")
+    else:
+        print("No")
