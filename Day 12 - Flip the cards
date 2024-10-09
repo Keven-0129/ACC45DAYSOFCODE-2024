@@ -1,0 +1,9 @@
+T=int(input())
+for i in range(T):
+    N,X=map(int,input().split(" "))
+    if N==X or X==0:
+        print("0")
+    elif X>=(N-X):
+        print(N-X)
+    else:
+        print(X)
