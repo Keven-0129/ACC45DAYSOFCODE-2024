@@ -1,0 +1,11 @@
+T=int(input())
+for i in range(T):
+    N,A,B=map(int,input().split(" "))
+    k=0
+    while True:
+        N=N/2
+        k+=1
+        if (N==1):
+            break
+    t=k*A+(k-1)*B
+    print(t)
