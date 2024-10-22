@@ -1,0 +1,7 @@
+T=int(input())
+for i in range(T):
+    r=list(map(int,input().split(" ")))
+    if (sum(r)==0):
+        print("In")
+    else:
+        print("Out")
