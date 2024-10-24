@@ -1,0 +1,11 @@
+T=int(input())
+for i in range(T):
+    N=int(input())
+    p=N-1
+    coff=list(map(int,input().split(" ")))
+    for i in reversed(coff) :
+        if i==0:
+            p=p-1
+        else:
+            break
+    print(p)  
