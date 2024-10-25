@@ -1,0 +1,12 @@
+T=int(input())
+for i in range(T):
+    s=0
+    l=0
+    N=int(input())
+    code=list(input().split(" "))
+    for j in code:
+        if j == "START38" :
+            s = s+1
+        else:
+            l=l+1
+    print(s,l)
