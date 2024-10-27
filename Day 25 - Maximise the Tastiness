@@ -1,0 +1,13 @@
+T=int(input())
+for i in range(T):
+    a,b,c,d=map(int,input().split(" "))
+    t=0
+    if (a>=b):
+        t=a
+    else:
+        t=b
+    if (c>=d):
+        t=t+c
+    else:
+        t=t+d
+    print(t)
