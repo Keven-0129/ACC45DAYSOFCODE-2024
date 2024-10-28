@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+	int T;
+	scanf("%d",&T);
+	while(T--){
+	    int i,n,k,c=0;
+	    scanf("%d%d",&n,&k);
+	    int dna[n];
+	    for(i=0;i<n;i++){
+	        scanf("%d",&dna[i]);
+	        if ((dna[i]+k) % 7 == 0) {
+	            c++;}}
+	    printf("\n%d",c);}
+    return 0;}
